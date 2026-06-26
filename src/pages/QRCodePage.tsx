@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import QRCode from 'qrcode'
 
 const TABLES = [1, 2, 3, 4]
-const DEFAULT_URL = 'https://birdielab.netlify.app/order'
+const DEFAULT_URL = 'https://krezyz.github.io/birdielab-cafe/#/order'
 
 export default function QRCodePage() {
   const [baseUrl, setBaseUrl] = useState(DEFAULT_URL)
